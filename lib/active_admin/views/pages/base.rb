@@ -39,7 +39,7 @@ module ActiveAdmin
               build_header
               build_title_bar
               build_page_content
-              build_footer
+            #  build_footer
             end
           end
         end
@@ -59,7 +59,7 @@ module ActiveAdmin
         
         def build_titlebar_left
           div :id => "titlebar_left" do
-            build_breadcrumb
+          #  build_breadcrumb
             build_title_tag
           end
         end
