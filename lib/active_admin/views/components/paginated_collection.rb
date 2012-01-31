@@ -52,7 +52,7 @@ module ActiveAdmin
 
       def build_pagination_with_formats
         div :id => "index_footer" do
-          build_download_format_links
+          # build_download_format_links
           build_pagination
         end
       end
