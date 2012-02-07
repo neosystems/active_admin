@@ -66,7 +66,10 @@ module ActiveAdmin
         
         def build_titlebar_right
           div :id => "titlebar_right" do
-            build_action_items
+           if title!="Planning"
+              build_action_items
+            end
+
           end
         end
 
