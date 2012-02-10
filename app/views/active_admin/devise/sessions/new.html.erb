@@ -1,9 +1,9 @@
-<div align="left">
-<%= image_tag("/assets/logo_b4u.png", :size => "450x300") %>
-  <p></p>
-</div>
 <div id="login">
-  <h2><%= title "#{active_admin_application.site_title} Login" %></h2>
+<br>
+  <h1 align="center"><%= image_tag("/assets/logo_b4u.png", :size => "170x110") %></h1>
+<HR SIZE="5"   NOSHADE="NOSHADE" border-color="#ADD1FF"> 
+ <br>
+  <h3 align="center"><%= title  "Acceso a #{active_admin_application.site_title} " %></h3>
 
   <% scope = Devise::Mapping.find_scope!(resource_name) %>
   <%= active_admin_form_for(resource, :as => resource_name, :url => send(:"#{scope}_session_path"), :html => { :id => "session_new" }) do |f| 
