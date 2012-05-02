@@ -27,6 +27,9 @@ es:
     less_than: "Menor que"
     main_content: "Por favor implemente %{model}#main_content para mostrar contenido."
     logout: "Salir"
+    scopes:
+      All: "Todas"
+      Today: "Hoy"
     sidebars:
       filters: "Filtros"
     pagination:
