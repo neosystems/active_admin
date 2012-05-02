@@ -2,7 +2,7 @@
 #header { 
   @include primary-gradient;
   @include shadow;
-  @include text-shadow(#000);
+ 
   overflow: visible;
   padding: 9px $horizontal-page-margin;
   z-index: 900;
@@ -25,7 +25,7 @@
     } 
   }
 
-  a, a:link { color: #cdcdcd; }
+  a, a:link { color: #5E6469; }
 
   ul#tabs {
     margin: 0; 
