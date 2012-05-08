@@ -12,8 +12,8 @@ $secondary-gradient-stop: #dfe1e2;
 }
 
 @mixin primary-gradient { 
-  @include gradient(lighten($header-color, 1%), darken($header-color, 1%));
-  border-bottom: 1px solid darken($header-color, 11%);
+ @include gradient(lighten($primary-color, 5%), darken($primary-color, 7%));
+  border-bottom: 1px solid darken($primary-color, 11%);
 }
 
 @mixin secondary-gradient { 
